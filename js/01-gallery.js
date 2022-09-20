@@ -8,7 +8,11 @@ function createImagesMarkup (images) {
     return images.map(({preview, original, description}) => {
         return `<div class = gallery__item>
         <a class = gallery__link href = "${original.value}">
-        <img class = gallery__image src = "${preview}" data-source = "${original}" alt = "${description}">
+        <img 
+        class = gallery__image 
+        src = "${preview}" 
+        data-source = "${original}" 
+        alt = "${description}">
         </a> 
         </div>`;
     }).join("");
