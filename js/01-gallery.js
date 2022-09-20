@@ -36,5 +36,8 @@ instance.show()
 
 galleryEl.addEventListener("click", onGalleryClick);
 
+console.log(galleryItems);
+
+
 
 
